@@ -1,0 +1,17 @@
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.BusinessAccess.deps.json
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.BusinessAccess.dll
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.BusinessAccess.pdb
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.AssemblyInfoInputs.cache
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.AssemblyInfo.cs
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.csproj.CoreCompileInputs.cache
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.dll
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\refint\System.BusinessAccess.dll
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.pdb
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\ref\System.BusinessAccess.dll
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.DataAccess.dll
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.Database.dll
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.DataAccess.pdb
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.Database.pdb
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.csproj.AssemblyReference.cache
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.csproj.CopyComplete

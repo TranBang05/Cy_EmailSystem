@@ -1,0 +1,15 @@
+E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.DataAccess.deps.json
+E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.DataAccess.dll
+E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.DataAccess.pdb
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.AssemblyInfoInputs.cache
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.AssemblyInfo.cs
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.csproj.CoreCompileInputs.cache
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.dll
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\refint\System.DataAccess.dll
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.pdb
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\ref\System.DataAccess.dll
+E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.Database.dll
+E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.Database.pdb
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.csproj.AssemblyReference.cache
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.csproj.CopyComplete

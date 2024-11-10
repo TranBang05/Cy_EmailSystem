@@ -1,0 +1,14 @@
+E:\InternCYVietNam\EmailSystem\System.Database\bin\Debug\net6.0\System.Database.deps.json
+E:\InternCYVietNam\EmailSystem\System.Database\bin\Debug\net6.0\System.Database.dll
+E:\InternCYVietNam\EmailSystem\System.Database\bin\Debug\net6.0\System.Database.pdb
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.GeneratedMSBuildEditorConfig.editorconfig
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.AssemblyInfoInputs.cache
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.AssemblyInfo.cs
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.csproj.CoreCompileInputs.cache
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.dll
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\refint\System.Database.dll
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.pdb
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\ref\System.Database.dll
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.csproj.AssemblyReference.cache
+E:\InternCYVietNam\EmailSystem\System.Database\bin\Debug\net6.0\System.Database.runtimeconfig.json
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.genruntimeconfig.cache
