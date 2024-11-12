@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             ComponentModel.ComponentResourceManager resources = new ComponentModel.ComponentResourceManager(typeof(Form1));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             pictureBox1 = new PictureBox();
             flowLayoutPanel1 = new FlowLayoutPanel();
             panel1 = new Panel();
@@ -41,8 +39,8 @@
             panel4 = new Panel();
             Employee = new Button();
             panel5 = new Panel();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             panelContainer = new Panel();
+            btn_SendMail = new Button();
             ((ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             flowLayoutPanel1.SuspendLayout();
             panel1.SuspendLayout();
@@ -145,33 +143,12 @@
             // panel5
             // 
             panel5.BackColor = Color.White;
-            panel5.Controls.Add(guna2Button1);
+            panel5.Controls.Add(btn_SendMail);
             panel5.Dock = DockStyle.Top;
             panel5.Location = new Point(134, 0);
             panel5.Name = "panel5";
             panel5.Size = new Size(705, 46);
             panel5.TabIndex = 3;
-            // 
-            // guna2Button1
-            // 
-            guna2Button1.CheckedState.CustomBorderColor = Color.Black;
-            guna2Button1.CheckedState.FillColor = Color.White;
-            guna2Button1.CustomizableEdges = customizableEdges1;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.White;
-            guna2Button1.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2Button1.ForeColor = Color.Black;
-            guna2Button1.Image = (Image)resources.GetObject("guna2Button1.Image");
-            guna2Button1.Location = new Point(42, 12);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new Size(75, 23);
-            guna2Button1.TabIndex = 0;
-            guna2Button1.Text = "Email";
-            guna2Button1.Click += guna2Button1_Click;
             // 
             // panelContainer
             // 
@@ -180,6 +157,17 @@
             panelContainer.Name = "panelContainer";
             panelContainer.Size = new Size(705, 387);
             panelContainer.TabIndex = 4;
+            // 
+            // btn_SendMail
+            // 
+            btn_SendMail.BackColor = Color.Gainsboro;
+            btn_SendMail.Location = new Point(26, 11);
+            btn_SendMail.Name = "btn_SendMail";
+            btn_SendMail.Size = new Size(94, 29);
+            btn_SendMail.TabIndex = 0;
+            btn_SendMail.Text = "SendMail";
+            btn_SendMail.UseVisualStyleBackColor = false;
+            btn_SendMail.Click += btn_SendMail_Click;
             // 
             // Form1
             // 
@@ -217,6 +205,6 @@
         private Button Employee;
         private Panel panel5;
         private Panel panelContainer;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Button btn_SendMail;
     }
 }

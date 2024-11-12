@@ -26,7 +26,7 @@ namespace System.App
         }
         private void Employee_Click(object sender, EventArgs e)
         {
-            UC_Employee employeeControl = new UC_Employee(_employeeService,_departmentService);
+            UC_Employee employeeControl = new UC_Employee(_employeeService, _departmentService);
             addUserControl(employeeControl);
         }
 
@@ -38,7 +38,11 @@ namespace System.App
         }
 
 
-
+        private void btn_SendMail_Click(object sender, EventArgs e)
+        {
+            UC_SendEmail emailControls = new UC_SendEmail(_employeeService);
+            addUserControl(emailControls);
+        }
 
 
 
@@ -77,5 +81,7 @@ namespace System.App
         {
 
         }
+
+        
     }
 }
