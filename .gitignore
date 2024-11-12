@@ -1,0 +1,68 @@
+# Binaries
+bin/
+obj/
+**/bin/
+**/obj/
+*/*.vsidx
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vsidx
+# Build results
+*.dll
+*.exe
+*.app
+*.pdb
+*.cache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+
+# Visual Studio Code workspace settings
+.vscode/
+
+# Visual Studio specific
+.vs/
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# Backup & temporary files
+*.bak
+*.swp
+*~
+*.tmp
+*.log
+*.temp
+*.DS_Store
+
+# nuget packages
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Personal sensitive data
+*.pfx
+*.snk
+
+# Resharper files
+_ReSharper*/
+*.DotSettings.user
+
+# StyleCop
+StyleCopReport.xml
+
+# MSTest test Results
+TestResults/
+/.vs/EmailSystem/FileContentIndex/1c2614b4-7cf4-4011-9fab-a0cacd41050e.vsidx
+/*/*/*.vsidx
