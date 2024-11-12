@@ -168,7 +168,7 @@
             guna2Button1.Location = new Point(42, 12);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            guna2Button1.Size = new Size(60, 23);
+            guna2Button1.Size = new Size(75, 23);
             guna2Button1.TabIndex = 0;
             guna2Button1.Text = "Email";
             guna2Button1.Click += guna2Button1_Click;
@@ -183,7 +183,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(96F, 96F);
+            AutoScaleDimensions = new SizeF(120F, 120F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.White;
             ClientSize = new Size(839, 433);

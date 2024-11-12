@@ -11,5 +11,6 @@ namespace System.DataAccess.Repository
     {
         Task<List<Employee>> GetAllEmployeesAsync();
         Task<List<string>> GetEmployeeEmailsAsync();
+        List<string> GetEmail();
     }
 }

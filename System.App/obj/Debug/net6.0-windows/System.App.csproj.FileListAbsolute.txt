@@ -48,3 +48,4 @@ E:\InternCYVietNam\EmailSystem\System.App\bin\Debug\net6.0-windows\System.Busine
 E:\InternCYVietNam\EmailSystem\System.App\bin\Debug\net6.0-windows\System.DataAccess.pdb
 E:\InternCYVietNam\EmailSystem\System.App\bin\Debug\net6.0-windows\System.Database.pdb
 E:\InternCYVietNam\EmailSystem\System.App\obj\Debug\net6.0-windows\System.App.UserControls.UC_SendEmail.resources
+E:\InternCYVietNam\EmailSystem\System.App\obj\Debug\net6.0-windows\System.App.sourcelink.json

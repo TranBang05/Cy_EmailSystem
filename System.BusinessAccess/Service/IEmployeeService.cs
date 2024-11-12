@@ -16,5 +16,6 @@ namespace System.BusinessAccess.Service
         Task<EmployeeResponse> UpdateEmployeeAsync(EmployeeRequest request);
         Task<bool> DeleteEmployeeAsync(int id);
         Task<List<string>> GetEmployeeEmailsAsync();
+        List<string> GetEmail();
     }
 }

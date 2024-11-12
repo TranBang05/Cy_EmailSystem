@@ -13,3 +13,4 @@ E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.Databas
 E:\InternCYVietNam\EmailSystem\System.DataAccess\bin\Debug\net6.0\System.Database.pdb
 E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.csproj.AssemblyReference.cache
 E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.csproj.CopyComplete
+E:\InternCYVietNam\EmailSystem\System.DataAccess\obj\Debug\net6.0\System.DataAccess.sourcelink.json

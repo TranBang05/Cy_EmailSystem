@@ -31,6 +31,7 @@ namespace System.Database.Entity
                 new MySqlServerVersion(new Version(8, 0, 21)));
             }
         }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Department>()

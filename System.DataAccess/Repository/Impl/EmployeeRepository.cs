@@ -20,6 +20,17 @@ namespace System.DataAccess.Repository.Impl
                               .ToListAsync();
         }
 
+        public List<Employee> getAll()
+        {
+            return _context.Employees.ToList();
+        }
+
+        public List<string> GetEmail()
+        {
+            var employees = getAll();
+            return employees.Select(e => e.Email).ToList();
+        }
+
         public async Task<List<string>> GetEmployeeEmailsAsync()
         {
             var employees = await GetAllEmployeesAsync();

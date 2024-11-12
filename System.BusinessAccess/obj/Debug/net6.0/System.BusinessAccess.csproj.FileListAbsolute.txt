@@ -15,3 +15,4 @@ E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.Dat
 E:\InternCYVietNam\EmailSystem\System.BusinessAccess\bin\Debug\net6.0\System.Database.pdb
 E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.csproj.AssemblyReference.cache
 E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.csproj.CopyComplete
+E:\InternCYVietNam\EmailSystem\System.BusinessAccess\obj\Debug\net6.0\System.BusinessAccess.sourcelink.json

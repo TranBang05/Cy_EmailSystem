@@ -51,10 +51,9 @@ namespace System.BusinessAccess.Service.Impl
             return employee != null ? _mapper.Map<EmployeeResponse>(employee) : null;
         }
 
-
-        public async Task<List<string>> GetEmployeeEmailsAsync()
+        public List<string> GetEmail()
         {
-            var emails = await _employeeRepository.GetEmployeeEmailsAsync();
+            var emails =  _employeeRepository.GetEmail();
             return emails;
         }
 
@@ -66,6 +65,12 @@ namespace System.BusinessAccess.Service.Impl
             _mapper.Map(request, employee);
             var updatedEmployee = await _employeeRepository.UpdateAsync(employee);
             return _mapper.Map<EmployeeResponse>(updatedEmployee);
+        }
+
+        public async Task<List<string>> GetEmployeeEmailsAsync()
+        {
+            var emails = await _employeeRepository.GetEmployeeEmailsAsync();
+            return emails;
         }
     }
 }

@@ -33,7 +33,7 @@ namespace System.App
         private void guna2Button1_Click(object sender, EventArgs e)
         {
 
-            UC_SendEmail emailControls = new UC_SendEmail();
+            UC_SendEmail emailControls = new UC_SendEmail(_employeeService);
             addUserControl(emailControls);
         }
 

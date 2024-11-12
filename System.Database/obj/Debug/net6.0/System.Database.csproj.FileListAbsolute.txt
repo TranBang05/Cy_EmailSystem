@@ -12,3 +12,4 @@ E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\ref\System.Datab
 E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.csproj.AssemblyReference.cache
 E:\InternCYVietNam\EmailSystem\System.Database\bin\Debug\net6.0\System.Database.runtimeconfig.json
 E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.genruntimeconfig.cache
+E:\InternCYVietNam\EmailSystem\System.Database\obj\Debug\net6.0\System.Database.sourcelink.json
