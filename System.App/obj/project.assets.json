@@ -39,21 +39,6 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
-      "Guna.UI2.WinForms/2.0.4.6": {
-        "type": "package",
-        "dependencies": {
-          "System.Management": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0-windows7.0/Guna.UI2.dll": {}
-        },
-        "runtime": {
-          "lib/net6.0-windows7.0/Guna.UI2.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.WindowsDesktop.App.WindowsForms"
-        ]
-      },
       "Microsoft.EntityFrameworkCore/6.0.35": {
         "type": "package",
         "dependencies": {
@@ -331,22 +316,6 @@
           }
         }
       },
-      "System.CodeDom/6.0.0": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.CodeDom.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
       "System.Collections.Immutable/6.0.0": {
         "type": "package",
         "dependencies": {
@@ -383,31 +352,6 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
-        }
-      },
-      "System.Management/6.0.0": {
-        "type": "package",
-        "dependencies": {
-          "System.CodeDom": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/System.Management.dll": {
-            "related": ".xml"
-          }
-        },
-        "build": {
-          "buildTransitive/netcoreapp3.1/_._": {}
-        },
-        "runtimeTargets": {
-          "runtimes/win/lib/net6.0/System.Management.dll": {
-            "assetType": "runtime",
-            "rid": "win"
-          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
@@ -515,28 +459,6 @@
         "lib/net7.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/net8.0-windows7.0/FontAwesome.Sharp.dll",
         "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
-      ]
-    },
-    "Guna.UI2.WinForms/2.0.4.6": {
-      "sha512": "NYzSJp7e47Cz3NgGCHvzadash8ycmxxUnpLg4Rr/MSYG9WDw0HOoTI4SkbDW+HbACrf6tsWYCuzWkgvjuM/O6w==",
-      "type": "package",
-      "path": "guna.ui2.winforms/2.0.4.6",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "LICENSE.txt",
-        "README.md",
-        "guna.ui2.winforms.2.0.4.6.nupkg.sha512",
-        "guna.ui2.winforms.nuspec",
-        "icon.png",
-        "lib/net40/Guna.UI2.dll",
-        "lib/net45/Guna.UI2.dll",
-        "lib/net461/Guna.UI2.dll",
-        "lib/net472/Guna.UI2.dll",
-        "lib/net48/Guna.UI2.dll",
-        "lib/net6.0-windows7.0/Guna.UI2.dll",
-        "lib/net7.0-windows7.0/Guna.UI2.dll",
-        "lib/netcoreapp3.1/Guna.UI2.dll"
       ]
     },
     "Microsoft.EntityFrameworkCore/6.0.35": {
@@ -925,29 +847,6 @@
         "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
-    "System.CodeDom/6.0.0": {
-      "sha512": "CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==",
-      "type": "package",
-      "path": "system.codedom/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/System.CodeDom.dll",
-        "lib/net461/System.CodeDom.xml",
-        "lib/net6.0/System.CodeDom.dll",
-        "lib/net6.0/System.CodeDom.xml",
-        "lib/netstandard2.0/System.CodeDom.dll",
-        "lib/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.6.0.0.nupkg.sha512",
-        "system.codedom.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Collections.Immutable/6.0.0": {
       "sha512": "l4zZJ1WU2hqpQQHXz1rvC3etVZN+2DLmQMO79FhOTZHMn8tDRr+WU287sbomD0BETlmKDn0ygUgVy9k5xkkJdA==",
       "type": "package",
@@ -996,34 +895,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Management/6.0.0": {
-      "sha512": "sHsESYMmPDhQuOC66h6AEOs/XowzKsbT9srMbX71TCXP58hkpn1BqBjdmKj1+DCA/WlBETX1K5WjQHwmV0Txrg==",
-      "type": "package",
-      "path": "system.management/6.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/netcoreapp2.0/System.Management.targets",
-        "buildTransitive/netcoreapp3.1/_._",
-        "lib/net461/_._",
-        "lib/net6.0/System.Management.dll",
-        "lib/net6.0/System.Management.xml",
-        "lib/netcoreapp3.1/System.Management.dll",
-        "lib/netcoreapp3.1/System.Management.xml",
-        "lib/netstandard2.0/System.Management.dll",
-        "lib/netstandard2.0/System.Management.xml",
-        "runtimes/win/lib/net6.0/System.Management.dll",
-        "runtimes/win/lib/net6.0/System.Management.xml",
-        "runtimes/win/lib/netcoreapp3.1/System.Management.dll",
-        "runtimes/win/lib/netcoreapp3.1/System.Management.xml",
-        "system.management.6.0.0.nupkg.sha512",
-        "system.management.nuspec",
-        "useSharedDesignerContext.txt"
-      ]
-    },
     "System.Runtime.CompilerServices.Unsafe/6.0.0": {
       "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "type": "package",
@@ -1069,7 +940,6 @@
     "net6.0-windows7.0": [
       "DevExpress.Win.WinterJoySkin >= 1.0.2",
       "FontAwesome.Sharp >= 6.6.0",
-      "Guna.UI2.WinForms >= 2.0.4.6",
       "Microsoft.Extensions.DependencyInjection >= 8.0.1",
       "Pomelo.EntityFrameworkCore.MySql >= 6.0.3",
       "System.BusinessAccess >= 1.0.0",
@@ -1133,10 +1003,6 @@
           "FontAwesome.Sharp": {
             "target": "Package",
             "version": "[6.6.0, )"
-          },
-          "Guna.UI2.WinForms": {
-            "target": "Package",
-            "version": "[2.0.4.6, )"
           },
           "Microsoft.Extensions.DependencyInjection": {
             "target": "Package",
