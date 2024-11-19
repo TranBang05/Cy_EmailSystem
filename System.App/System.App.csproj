@@ -22,8 +22,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\System.BusinessAccess\System.BusinessAccess.csproj" />
-    <ProjectReference Include="..\System.DataAccess\System.DataAccess.csproj" />
-    <ProjectReference Include="..\System.Database\System.Database.csproj" />
   </ItemGroup>
 
   <ItemGroup>
