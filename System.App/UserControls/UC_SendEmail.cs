@@ -83,7 +83,7 @@ namespace System.App.UserControls
                 foreach (string fileName in dialog.FileNames)
                 {
                     emailAttachments.Add(new Attachment(fileName));
-                    txt_File.Text += fileName + " "; 
+                    txt_File.Text += fileName + " ";
                 }
             }
         }
@@ -93,7 +93,7 @@ namespace System.App.UserControls
             try
             {
                 List<string> listEmail = GetEmailsForSending();
-        
+
                 if (listEmail.Count == 0)
                 {
                     MessageBox.Show("Không có email nào để gửi.");
@@ -218,7 +218,7 @@ namespace System.App.UserControls
         {
         }
 
-        
+
         private void listMail_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listMail.SelectedItem != null)
@@ -243,6 +243,11 @@ namespace System.App.UserControls
                 txt_Cc.SelectionStart = txb_To.Text.Length;
                 listMail.Visible = false;
             }
+        }
+
+        private void toolbar_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

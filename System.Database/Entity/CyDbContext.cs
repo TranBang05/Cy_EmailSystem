@@ -27,8 +27,10 @@ namespace System.Database.Entity
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("Server=localhost;Database=cy_emailSystem;User=root;Password=bang0501@b;",
-                new MySqlServerVersion(new Version(8, 0, 21)));
+                optionsBuilder.UseMySql(
+     "Server=localhost;Database=cy_emailsystem;User=root;Password=1234;SslMode=none;",
+     new MySqlServerVersion(new Version(8, 0, 33)));
+
             }
         }
 
